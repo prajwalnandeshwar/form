@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+}
+table,td,th{
+    
+    border-collapse: collapse ;
+}
+table{
+    width:90%;
+    height: 75vh;
+}
+th{
+    text-align : left;
+}
+td{
+    padding:0px 10px 0px 5px;
+}
+section{
+    margin-top: 2rem;
+    height: 90vh;
+    width: 90vh;;
+    background-color: rgba(43, 116, 199, 0.692);
+    border-radius: 10px;
+    
+}
+input{
+    width:100%;
+}
+textarea{
+    width:100%;
+    overflow: scroll;
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.heading{
+    margin:8px;
+}
+.button{
+    width:30%;
+    margin-left:30%;
+
+}
